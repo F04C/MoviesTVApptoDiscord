@@ -2,9 +2,9 @@ import discord
 from discord.ext import commands
 import psutil
 import os
-
+from config import token
 # Set your Discord bot token here
-token = ''
+
 
 # Initialize the Discord bot with intents
 intents = discord.Intents.all()
